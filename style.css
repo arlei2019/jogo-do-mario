@@ -1,0 +1,143 @@
+/* ESTILOS PARA O VÍDEO DE FUNDO */
+video {
+    /* 1. Fixa a posição do vídeo na viewport (janela) */
+    position: fixed; 
+    top: 0;
+    left: 0;
+    
+    /* 2. Garante que ele ocupe 100% da largura e altura */
+    width: 100vw;
+    height: 100vh;
+    
+    /* 3. Garante que o vídeo cubra toda a área sem distorcer (cortando as bordas se necessário) */
+    object-fit: cover;
+    
+    /* 4. Manda o vídeo para o fundo, atrás de tudo (-9 é um valor seguro) */
+    z-index: -9;
+}
+body {
+    font-family: 'Courier New', monospace; /* Fonte fallback para um visual técnico */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+/* O Celular da Virgínia -> Virou Gabinete de Fliperama */
+.iphone-15-pro-max {
+    /* MUDANÇA 2: Cores mais escuras e saturadas de fliperama/console */
+    background: linear-gradient(to bottom, #101030, #505080);
+    background-size: cover;
+    width: 340px; /* Um pouco maior */
+    height: 620px; /* Um pouco maior */
+    border-radius: 10px; /* Menos arredondado */
+    border: 5px solid #ffaa00; /* Laranja/Ouro de Jogo */
+    box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    /* MUDANÇA 3: Efeito de 'tela de tubo' ou scanlines (opcional, mas legal) */
+  position: relative;
+}
+
+/* MUDANÇA 3.1: Adicionar um efeito de scanline ao gabinete (opcional) */
+.iphone-15-pro-max::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: repeating-linear-gradient(
+        transparent,
+        transparent 1px,
+        rgba(0, 0, 0, 0.3) 2px,
+        rgba(0, 0, 0, 0.3) 3px
+    );
+    pointer-events: none; /* Garante que os cliques funcionem */
+}
+
+
+header {
+    /* MUDANÇA 4: Cores de HUD de jogo */
+    background-color: #004400; /* Verde escuro */
+    color: #00ff00; /* Verde néon de tela */
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 3px solid #00ff00;
+    /* MUDANÇA 5: Sombra de texto para parecer CRT */
+    text-shadow: 0 0 5px #00ff00;
+}
+
+/* A CENA DO CRIME: CORRIGIDO COM GRID */
+.tela-jogo {
+    background-color: #000000; /* Preto total */
+    flex: 1; 
+    margin: 10px;
+    padding: 10px; /* Menos padding */
+    border: 5px solid #cc00ff; /* Roxo vibrante de néon */
+    border-radius: 5px; /* Mais quadrado */
+    box-shadow: inset 0 0 15px #cc00ff; /* Brilho interno néon */
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(3, 1fr);    
+    gap: 5px; /* Menor gap */
+    align-items: center;
+    justify-items: center;
+}
+
+/* Os Emojis (Itens) */
+.item {
+    font-size: 2.0rem; /* Menor para focar no quadro */
+    /* MUDANÇA 6: Efeito de fundo de bloco de 8 bits */
+    background-color: #202020;
+    border-radius: 0; /* Quadrado */
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px outset #555; /* Borda 3D "pixelada" */
+    box-shadow: none; /* Remove a sombra suave anterior */
+}
+
+/* Botões */
+.controles {
+    padding: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.botao {
+    padding: 15px;
+    border: none;
+    border-radius: 3px; /* Quadrado */
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: none; /* Remover transição suave */
+    box-shadow: 2px 2px 0px #000; /* Sombra sólida de 8 bits */
+}
+
+.botao:active {
+    transform: translate(2px, 2px); /* Efeito de clique de botão sólido */
+    box-shadow: none;
+}
+
+/* MUDANÇA 7: Cores de botão de console */
+.deposito { background-color: #c0c0c0; color: #333; }
+.apostar { background-color: #ff0000; color: #ffff00; flex-grow: 1; border: 2px solid #ffff00; }
+
+footer { 
+    text-align: center; 
+    color: #ffaa00; /* Laranja néon */
+    padding-bottom: 15px; 
+    font-size: 1.0rem;
+    background-color: #101010; /* Fundo escuro */
+    border-top: 3px solid #ffaa00;
+    /* MUDANÇA 8: Sombra de texto para parecer CRT */
+    text-shadow: 0 0 5px #ffaa00;
+}
