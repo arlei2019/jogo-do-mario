@@ -1,61 +1,64 @@
-# Olá, eu sou o [Seu Nome]! 👋
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Slot%20Machine.png" width="35" /> Little Tiger Deluxe: Retro Edition
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=E50914&center=true&vCenter=true&width=435&lines=Desenvolvedor+Front-End;Criador+do+Projeto+AUG;Entusiasta+de+UI%2FUX+e+Games" alt="Typing SVG" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=ffaa00&height=200&section=header&text=LITTLE%20TIGER&fontSize=80&animation=fadeIn&fontColor=101030" />
+  
+  <br/>
+
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=20&pause=1000&color=FF0000&center=true&vCenter=true&width=600&lines=STATUS:+Pobre...;STATUS:+Trabalhador;STATUS:+REI+DO+CAMAROTE!+💎;Gire+a+roleta+do+Mario+e+Luigi!" alt="Typing SVG" />
+  </a>
 </div>
 
 ---
 
-## 🚀 Meus Projetos em Destaque
+### 🎰 Sobre o Projeto
+**Little Tiger Deluxe** é um simulador de "Tiger Slot" com uma skin personalizada de **Mario & Luigi**. O projeto simula a experiência de um gabinete de fliperama clássico, com interface inspirada em consoles antigos e efeitos visuais de scanlines CRT.
 
-### 📖 AUG - A Última Geração
-Um leitor de mangá nacional com foco em imersão.
-- **Destaque Interativo:** Sistema dinâmico de trilha sonora que muda conforme o scroll da página.
-- **Tecnologias:** HTML5, CSS3 (Glassmorphism), JavaScript (Intersection Observer API).
-- **Funcionalidades:** Modo leitura, controles de áudio e interface responsiva.
-
-### 🎰 Little Tiger Deluxe (VIDEOGAMER)
-Um simulador de jogo arcade com estética retro de 8-bits.
-- **Destaque Visual:** Efeito de tela CRT (scanlines) e design inspirado em gabinetes de fliperama.
-- **Lógica de Jogo:** Sistema de apostas, saldo dinâmico e manipulação de DOM em tempo real.
-- **Estilo:** CSS Grid avançado e animações de estado.
+> "Saia do status de Pobre e torne-se o Rei do Camarote! 💰"
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas
+### 🕹️ Features do Gabinete
+- [x] **Interface Arcade:** Estilização que simula um console real com efeitos de brilho néon.
+- [x] **Sistema de Saldo Dinâmico:** O status do jogador muda conforme o ganho (Pobre, Trabalhador, Rei ou Aposentado).
+- [x] **Gráficos Pixelados:** Uso de emojis e bordas estilo 8-bit para uma imersão retrô.
+- [x] **Video Background:** Fundo animado com loop contínuo para manter a energia do jogo.
+- [x] **Efeito CRT:** Filtro visual de linhas de tubo (scanlines) diretamente no CSS.
 
+---
+
+### 🛠️ Tech Stack (The Power-Ups)
 <div align="left">
-  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,vscode,git" />
+</div>
+
+- **Engine:** JavaScript Vanilla para a lógica de sorteio e manipulação de saldo.
+- **Visual:** CSS Grid Layout para a grade 3x3 perfeita dos slots.
+- **Imersão:** HTML5 Video para o plano de fundo dinâmico.
+
+---
+
+### 📸 Galeria de Itens (Simbolos)
+`🧼` `🌻` `💎` `💵` `🤑` `📿` `💳` `💰` `🦁`
+
+---
+
+### 📈 Player Stats
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SEU_USUARIO_GITHUB&show_icons=true&theme=tokyonight&border_color=ffaa00" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO_GITHUB&layout=compact&theme=tokyonight&border_color=ffaa00" />
 </div>
 
 ---
 
-## 📊 Estatísticas do GitHub
+### 🎮 Como Jogar
+1. Clone o repositório.
+2. Abra o `index.html`.
+3. Clique em **GIRAR!** e torça para a inflação do tigre não te pegar!
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SEU_USUARIO_AQUI&show_icons=true&theme=transparent&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO_AQUI&layout=compact&langs_count=7&theme=transparent"/>
-</div>
-
----
-
-## 📫 Vamos nos conectar?
-
-<div align="center">
-  <a href="https://www.instagram.com/el_arlleyy/" target="_blank">
-    <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank">
-  </a>
-  <a href="mailto:seuemail@exemplo.com">
-    <img src="https://img.shields.io/badge/-Email-c14438?style=for-the-badge&logo=Gmail&logoColor=white" target="_blank">
-  </a>
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=SEU_USUARIO_AQUI&label=Perfil%20Views&color=0e75b6&style=flat" alt="Views" />
+  <br>
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Money-Mouth%20Face.png" width="50" />
+  <p><strong>Aposte com moderação (é tudo de mentirinha!)</strong></p>
 </div>
